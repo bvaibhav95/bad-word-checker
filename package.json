@@ -1,0 +1,33 @@
+{
+  "name": "bad-word-checker",
+  "version": "1.0.0",
+  "description": "This will check bad words in files",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist",
+    "start:prod": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bvaibhav95/bad-word-checker.git"
+  },
+  "author": "Vaibhav Kailas Bachhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bvaibhav95/bad-word-checker/issues"
+  },
+  "homepage": "https://github.com/bvaibhav95/bad-word-checker#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "nodemon": "^1.19.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.4"
+  }
+}
