@@ -4,4 +4,5 @@ var _config = _interopRequireDefault(require("./config"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-console.log("hello");
+var x = "abc";
+console.log(x);
