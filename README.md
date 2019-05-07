@@ -4,7 +4,9 @@ This application or small program can scan or traverse through some set of direc
 
 ## Getting Started
 
-You can use this program or snippets in your project
+A small program that can scan your code repositories for keywords or bad-words or hard coded configs  #javascript #Nodejs
+
+Ex. You can use this program to check whether your developers have hard coded the configs or secret keys or credentials in code
 
 ### Prerequisites
 
@@ -44,10 +46,10 @@ Run in production mode
 
 ```
 npm run build
-```
-```
 npm run start:prod
 ```
+
+It will generate the ```result.log``` file with report under folder ```result```
 
 ## Author
 
