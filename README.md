@@ -51,7 +51,7 @@ npm run start:prod
 
 ## Author
 
-* **Vaibhav K Bachhav** - *Initial work* - [PurpleBooth](https://github.com/bvaibhav95)
+* **Vaibhav K Bachhav** - *Initial work* - [Github](https://github.com/bvaibhav95)
 
 
 ## License
