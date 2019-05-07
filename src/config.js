@@ -1,7 +1,7 @@
 const config = {
-    dirLists: ["D:\\data", "D:\\AWS"],
-    badWordLists: ["abc", "xyz"],
-    extToCheck : [".py", ".js"]
+    dirLists: ["D:\\My-repo\\python\\Algos"],
+    badWordLists: ["abc", "xyz", "def"],
+    extToScan: [".py", ".js"]
 };
 
 export default config;
